@@ -7,46 +7,41 @@
     <style>
         body {
             background-image: url('web_background.png');
-            background-size: cover; /* A háttérkép kitölti az ablakot */
+            background-size: cover;
             background-position: center;
-            background-repeat: no-repeat; /* Ne ismétlődjön */
             text-align: center;
             color: white;
             font-family: Arial, sans-serif;
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Középre igazítás */
         }
         h1 {
-            font-size: 28px; /* Kisebb szöveg */
-            color: black;
+            margin-top: 50px;
+            font-size: 36px;
+            color: black; /* Fekete szöveg */
             display: inline-block;
             background-color: rgb(106,183,23); /* Zöld háttér */
-            padding: 15px 30px;
-            border-radius: 15px;
-            margin-top: 20px; /* Kisebb távolság */
+            padding: 20px 30px;
+            border-radius: 15px; /* Lekerekített sarkok */
         }
         img {
             width: 120px; /* A kép szélessége kisebb lesz */
             height: auto;
             margin: 20px 0; /* Térköz a kép körül */
+            align-self: center;
         }
-        .next-btn {
-            font-size: 24px; /* Kisebb "Next" felirat */
-            color: black;
+        next-btn {
+            margin-top: 50px;
+            font-size: 36px;
+            color: black; /* Fekete szöveg */
+            display: inline-block;
             background-color: rgb(106,183,23); /* Zöld háttér */
-            padding: 15px 30px;
-            border-radius: 15px;
-            margin-top: 20px; /* Térköz a gomb és a többi elem között */
-            display: inline-block; /* Gomb ne legyen teljes szélességű */
+            padding: 20px 30px;
+            border-radius: 15px; /* Lekerekített sarkok */
         }
+
     </style>
 </head>
 <body>
     <h1>Head or Tail Rules</h1>
-    <img src="headcoin.png" alt="Head or Tail Coin">
     <div class="next-btn">Next</div>
 </body>
 </html>
