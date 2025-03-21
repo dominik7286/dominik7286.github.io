@@ -4,45 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Head or Tail Rules</title>
-    <style>
-        body {
-            background-image: url('web_background.png');
-            background-size: cover;
-            background-position: center;
-            text-align: center;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            margin-top: 50px;
-            font-size: 36px;
-            color: black; /* Fekete szöveg */
-            display: inline-block;
-            background-color: rgb(106,183,23); /* Zöld háttér */
-            padding: 20px 30px;
-            border-radius: 15px; /* Lekerekített sarkok */
-        }
-        img {
-            width: 120px; /* A kép szélessége kisebb lesz */
-            height: auto;
-            margin: 20px 0; /* Térköz a kép körül */
-            align-self: center;
-        }
-        .next-btn {
-            margin-top: 50px;
-            font-size: 36px;
-            color: black; /* Fekete szöveg */
-            display: inline-block;
-            background-color: rgb(106,183,23); /* Zöld háttér */
-            padding: 20px 30px;
-            border-radius: 15px; /* Lekerekített sarkok */
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Head or Tail Rules</h1>
-    <img src="headcoin.png" alt="Head or Tail Coin">
-    <div class="next-btn">Next</div>
+    <div class="image-container">
+        <img src="headcoin.png" alt="Head Coin">
+        <img src="tailcoin.png" alt="Tail Coin">
+    </div>
+    <div class="rules-text">
+        After clicking the Play button, the game will begin. Three coins will appear on the screen, two of them in the size shown here, 
+        which can be interacted with. The coin with the head represents the head side, while the coin with the tail represents the tail side. 
+        The coin clicked on during a round will be selected as the user's guess.
+    </div>
+    <div class="next-btn" id="next-btn">Next</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
