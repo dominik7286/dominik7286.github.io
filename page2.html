@@ -4,49 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Head or Tail Rules</title>
-    <style>
-        body {
-            background-image: url('web_background.png');
-            background-size: 100% 100%;
-            background-position: center;
-            text-align: center;
-            background-repeat: no-repeat; 
-            color: white;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            position: relative;
-        }
-        h1 {
-            position: absolute;
-            top: 60px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 36px;
-            color: black;
-            background-color: rgb(106,183,23);
-            padding: 20px 30px;
-            border-radius: 15px;
-        }
-        .next-btn {
-            position: absolute;
-            bottom: 20%; 
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 24px;
-            color: black;
-            background-color: rgb(106,183,23);
-            padding: 20px 30px;
-            border-radius: 15px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Head or Tail Rules</h1>
-    <div class="next-btn">Next</div>
+    <h1>Prizes</h1>
+    <div class="image-container">
+        <img class="moneyboxes-img" src="moneyboxes.png" alt="Money Boxes">
+    </div>
+
+    <div class="rules-text">
+        After the coin flip, if the user guessed correctly, they will receive the prize shown in the top left corner of the table. After this, if they continue, additional values will be added to that prize.
+    </div>
+
+    <div class="next-btn" style="bottom: 10%;" onclick="location.href='page3.html'">Next</div>
 </body>
 </html>
+
+
+
