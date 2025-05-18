@@ -1,10 +1,7 @@
 body {
-    background-image: url('web_background.png');
-    background-size: 100% 100%;
-    background-position: center;
+    background-color: rgb(251, 254, 123); /* új háttérszín */
     text-align: center;
-    background-repeat: no-repeat; 
-    color: white;
+    color: black; /* világos háttérhez sötétebb szöveg */
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,15 +11,16 @@ body {
     position: relative;
 }
 
+
 h1 {
     position: absolute;
-    top: 60px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 36px;
+    font-size: 20px; 
     color: black;
-    padding: 20px 30px;
-    border-radius: 15px;
+    padding: 10px 20px; 
+    border-radius: 10px;
 }
 
 .image-container {
